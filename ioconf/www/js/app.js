@@ -7,7 +7,7 @@ angular.module('conference', ['ionic', 'openfb', 'conference.sessions', 'confere
                의 Valid OAuth redirect URI 에 아래 주소를 작성해야 한다.
             */
             'https://www.facebook.com/connect/login_success.html',
-            // 'http://localhost/openfb/index.html',
+            // 'http://localhost:5000/oauthcallback.html',
         $window.sessionStorage);
 
         $ionicPlatform.ready(function () {
@@ -68,9 +68,10 @@ angular.module('conference', ['ionic', 'openfb', 'conference.sessions', 'confere
         };
 
         $scope.fbLogin = function () {
-            OpenFB.login('email,read_stream,publish_stream,user_friends,read_friendlists,publish_actions').then(
+            OpenFB.login('email,read_stream').then(
                 function () {
-                    $location.path('/app/person/me/feed');
+                    $scope.closeLogin();
+                    $location.path('/app/sessions');
                 },
                 function () {
                     alert('OpenFB login failed');
