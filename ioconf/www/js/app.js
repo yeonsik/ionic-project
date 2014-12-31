@@ -6,8 +6,7 @@ angular.module('conference', ['ionic', 'openfb', 'conference.sessions', 'confere
             /* https://developers.facebook.com/apps advanced settings 
                의 Valid OAuth redirect URI 에 아래 주소를 작성해야 한다.
             */
-            'http://ioconf-project.herokuapp.com/oauthcallback.html'
-            // 'https://www.facebook.com/connect/login_success.html',
+            'https://www.facebook.com/connect/login_success.html',
             // 'http://localhost/openfb/index.html',
         $window.sessionStorage);
 
