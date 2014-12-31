@@ -221,6 +221,7 @@ angular.module('openfb', [])
     });
 
 // Global function called back by the OAuth login dialog
+// oauthcallback.html 에서 이 메서드를 호출함.
 function oauthCallback(url) {
     var injector = angular.element(document.getElementById('main')).injector();
     injector.invoke(function (OpenFB) {

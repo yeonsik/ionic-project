@@ -30,6 +30,12 @@
   </head>
 
   <body ng-app="conference">
+    <!--
+        facebook 로그인을 할 때 openfb-angular.js 에서
+        OpenFB.oauthCallback 관련 처리를 하는 부분에 "main" id 요소를 이용하는
+        부분이 있어서 아래와 같이 id를 main으로 반드시 설정해 줘야 facebook 로그인이
+        정상적으로 수행 된다.
+    -->
     <ion-nav-view id="main"></ion-nav-view>
   </body>
 </html>
