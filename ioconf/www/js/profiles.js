@@ -1,6 +1,6 @@
 angular.module('conference.profiles', ['conference.config'])
 
-    .config(function ($stateProvider, FB_APP_ID, OpenFB) {
+    .config(function ($stateProvider) {
 
         $stateProvider
 
@@ -18,8 +18,5 @@ angular.module('conference.profiles', ['conference.config'])
     .controller('ProfileCtrl', function ($scope, OpenFB) {
         OpenFB.get('/me').success(function (user) {
             $scope.user = user;
-        })
-        .error(function(data) {
-                alert(data.error.message);
-            });
+        });
     });

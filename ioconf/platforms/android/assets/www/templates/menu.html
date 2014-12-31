@@ -1,0 +1,36 @@
+<ion-side-menus>
+
+    <ion-pane ion-side-menu-content>
+        <ion-nav-bar class="bar-stable nav-title-slide-ios7">
+            <ion-nav-back-button class="button-clear"><i class="icon ion-ios7-arrow-back"></i>
+            </ion-nav-back-button>
+        </ion-nav-bar>
+        <ion-nav-view name="menuContent" animation="slide-left-right"></ion-nav-view>
+    </ion-pane>
+
+    <ion-side-menu side="left" class="dark-bg">
+        <header class="bar bar-header bar-dark">
+            <h1 class="title">Menu</h1>
+        </header>
+        <ion-content class="has-header" class="mymenu">
+            <ion-list>
+                <ion-item nav-clear menu-close href="#/app/sessions" class="item-icon-left">
+                    <i class="icon ion-ios7-bookmarks"></i>
+                    Sessions
+                </ion-item>
+                <ion-item nav-clear menu-close href="#/app/speakers" class="item-icon-left">
+                    <i class="icon ion-ios7-person"></i>
+                    Speakers
+                </ion-item>
+                <ion-item nav-clear menu-close ng-click="login()" class="item-icon-left">
+                    <i class="icon ion-ios7-unlocked"></i>
+                    Login
+                </ion-item>
+                <ion-item nav-clear menu-close href="#/app/profile" class="item-icon-left">
+                    <i class="icon ion-ios7-person-outline"></i>
+                    Profile
+                </ion-item>
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+</ion-side-menus>
