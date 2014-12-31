@@ -1,4 +1,6 @@
 
+# Original : https://github.com/ccoenraets/ioconf
+
 
 https://github.com/ccoenraets/ioconf 를 ionic framework 를 통해 빌드하여
 모바일에도 정상적으로 빌드 및 실행(페이스북 로그인 처리도 모바일에서 되도록 수정) 할 수 있도록 수정한 버전.
