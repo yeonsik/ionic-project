@@ -35,8 +35,38 @@ You can try a hosted version of the app here: [http://ioconf-project.herokuapp.c
     
 3. Open a browser and access [http://localhost:5000](http://localhost:5000) to run the application
     
+## Running in Cordova
 
-## Building for Android
+### Step 1: Install Ionic
+
+1. Make sure you have an up-to-date version of Node.js installed on your system. If you don't have Node.js installed, you can install it from [here](http://nodejs.org/).
+
+1. Open a terminal window (Mac) or a command window (Windows), and install Cordova and Ionic:
+
+  ```
+  npm install -g cordova ionic
+  ```
+
+  On a Mac, you may have to use **sudo** depending on your system configuration:
+
+  ```
+  sudo npm install -g cordova ionic
+  ```
+
+1. If you already have Cordova and Ionic installed on your computer, make sure you update to the latest version:
+
+  ```
+  npm update -g cordova ionic
+  ```
+
+  or
+
+  ```
+  sudo npm update -g cordova ionic
+  ```
+
+
+### Step 2: Building for Android
 
 1. Navigate to the ioconf directory
     
