@@ -1,8 +1,8 @@
-angular.module('conference', ['ionic', 'conference.sessions', 'conference.speakers', 'conference.profiles'])
+angular.module('conference', ['ionic', 'openfb', 'conference.sessions', 'conference.speakers', 'conference.profiles'])
 
-    .run(function ($ionicPlatform, OpenFB) {
+    .run(function ($ionicPlatform, $window, FB_APP_ID, OpenFB) {
 
-        OpenFB.init('1766688126889696',
+        OpenFB.init(FB_APP_ID,
             /* https://developers.facebook.com/apps advanced settings 
                의 Valid OAuth redirect URI 에 아래 주소를 작성해야 한다.
             */

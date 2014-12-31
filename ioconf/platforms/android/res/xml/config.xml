@@ -11,7 +11,7 @@
     <feature name="InAppBrowser">
         <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
     </feature>
-    <name>ioconf-yeonsik</name>
+    <name>ioconf-project</name>
     <description>
         An Ionic Framework and Cordova project.
     </description>

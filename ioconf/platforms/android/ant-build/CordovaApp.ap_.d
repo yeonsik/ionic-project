@@ -75,7 +75,6 @@
 /Volumes/SubDisk/work/ionic/ioconf-project/ioconf/platforms/android/assets/www/js/speakers.js \
 /Volumes/SubDisk/work/ionic/ioconf-project/ioconf/platforms/android/assets/www/lib/ionic \
 /Volumes/SubDisk/work/ionic/ioconf-project/ioconf/platforms/android/assets/www/lib/openfb-angular.js \
-/Volumes/SubDisk/work/ionic/ioconf-project/ioconf/platforms/android/assets/www/lib/openfb.js \
 /Volumes/SubDisk/work/ionic/ioconf-project/ioconf/platforms/android/assets/www/lib/ionic/css \
 /Volumes/SubDisk/work/ionic/ioconf-project/ioconf/platforms/android/assets/www/lib/ionic/fonts \
 /Volumes/SubDisk/work/ionic/ioconf-project/ioconf/platforms/android/assets/www/lib/ionic/js \
